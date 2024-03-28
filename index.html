@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: #20e6b4; 
+}
+
+.flex-container > div {
+  background-color: #dff51c; 
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-container > div img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h1>Create a Flex Container</h1>
+
+<div class="flex-container">
+  <div><a href="#"><img src="Game1.jpg" alt="Image 1"></a></div>
+  <div><a href="#"><img src="Game2.jpg" alt="Image 2"></a></div>
+  <div><a href="#"><img src="Game3.jpg" alt="Image 3"></a></div>  
+</div>
+
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically become flexible items.</p>
+
+</body>
+</html>
